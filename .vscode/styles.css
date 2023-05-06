@@ -1,69 +1,87 @@
-body{
-    background: lightgray;
-}
 .Navbar {
     background: white;
     width: 100%;
     height: 80px;
     text-align: center;
- 
-
+    margin: 0;
+  border: 1px solid white
 }
 
-.post{
-    margin: auto;
-    height: 900px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 450px; padding-right: 400px;
+body {
+    background: lightgray;
+    margin: 0px;
     
 }
-.postHead{
-    background:white;
+
+.post {
+    margin: 30px 700px;
+    height: 550px;
+    width: 500px;
+   
+    flex-direction: column;
+
+}
+
+.postHead {
+    background: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 25px;
     padding-top: 10px;
-    padding-left: 10px;
 }
-.headizquierda{
+
+.headizquierda {
     display: flex;
     flex-direction: row;
     width: 60px;
     font-size: 20px;
+   
 }
-.textohead{
+
+.textohead {
     display: flex;
     flex-direction: column;
 }
-.headderecha{
+
+.headderecha {
     display: flex;
     float: right;
-    margin-left: 5px;
+    margin-right: 5px;
 }
+
 .fa-ellipsis-v:before {
     content: "\f142";
     margin: 10px;
 }
-.imagen{
+
+.imagen {
     background: white;
 }
-.postFooter{
+
+.postFooter {
     background: white;
     height: 130px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .postFooter2 {
     background: white;
     height: 140px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.iconos{
-    background:white;
+
+.postFooter3 {
+    background: white;
+    height: 140px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.iconos {
+    background: white;
     height: 30px;
     display: flex;
     flex-direction: row;
